@@ -28,3 +28,10 @@ SPIDERMON_SPIDER_CLOSE_MONITORS = ("gazette.monitors.SpiderCloseMonitorSuite",)
 
 QUERIDODIARIO_DATABASE_URL = "sqlite:///querido-diario.db"
 QUERIDODIARIO_MAX_REQUESTS_ITEMS_RATIO = 5
+
+# These settings are needed only when storing downloaded files
+# in a S3 bucket
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+AWS_ENDPOINT_URL = ""
+AWS_REGION_NAME = ""
