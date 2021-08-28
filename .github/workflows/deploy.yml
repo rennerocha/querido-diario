@@ -3,8 +3,6 @@ name: Deploy
 on:
   push:
     branches: [main]
-    paths:
-      - 'data_collection/'
 
 jobs:
   deploy_to_scrapinghub:
