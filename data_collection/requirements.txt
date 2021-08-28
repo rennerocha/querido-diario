@@ -141,8 +141,6 @@ pathspec==0.8.1
     # via black
 pep517==0.10.0
     # via pip-tools
-pip-tools==6.0.1
-    # via -r requirements.in
 pre-commit==2.11.1
     # via -r requirements.in
 premailer==3.7.0
