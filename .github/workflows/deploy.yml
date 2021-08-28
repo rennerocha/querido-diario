@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'data_collection/gazette/spiders/'
+      - 'data_collection/'
 
 jobs:
   deploy_to_scrapinghub:
